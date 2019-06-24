@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* .navbar-toggler{
+    color: #fff;
+}
+
+.navbar-toggler{
+    color: #fff;
+} */
+
+.navbar{
+    opacity: 0.97;
+}
+
+.navbar-brand{
+    margin-left: 50px;
+}
+
+.navbar-toggler:hover {
+    color: #fff;
+    background-color: #212121;
+}
+
+
+
+
+
+/* Header */
+.header{
+    background-image: url('/img/header.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 700px;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.header-overlay {
+    background-color: rgba(31, 31, 31, 0.4);
+    height: 700px;
+}
+
+.header-text{
+    margin-top: 100px;
+}
+
+
+
+
+
+/* Icons */
+#icons{
+border-top: 1px solid #2A9FD6;
+border-bottom: 1px solid #2A9FD6;
+}
+
+
+
+
+
+/* About */
+.section-title__underline{
+    width: 5rem;
+    height: .25rem;
+}
+
+.about-img{
+    border: 2px solid #2A9FD6;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.about-img:hover{
+    border-radius: 15px;
+    padding: 0px;
+    border: 3px solid #2A9FD6;
+}
+
+
+
+
+
+/* Portfolio - Cards */
+.card:hover{
+    border: 1px solid #2A9FD6
+}
+
+
+
+.card-img-wrap {
+    overflow: hidden;
+    position: relative;
+  }
+
+.card-img-wrap:after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    opacity: 0;
+  }
+
+.card-img-wrap img {
+    transition: transform .5s;
+    width: 100%;
+}
+
+.card:hover img {
+    transform: scale(1.1);
+}
+
+
+
+
+/* Contact */
+.contact{
+    background-image: url('/img/particles.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 450px;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    border-top: 1px solid #2A9FD6;
+    border-bottom: 1px solid #2A9FD6;
+}
+
+
+.contact-overlay{
+    background-color: rgba(31, 31, 31, 0.8);
+    height: 450px;
+}
+
+.contact i:hover{
+    color: #2A9FD6;
+    transition: 0.1s ease-in;
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 500px){
+    .navbar-brand{
+        margin-left: 0px;
+    }
+    
+    .header-text h1{
+        font-size: 40px;
+    }
+
+    .header-text h3{
+        font-size: 30px;
+    }
+
+    .header{
+        height: 500px;
+    }
+    .header-overlay{
+        height: 500px;
+    }
+}
