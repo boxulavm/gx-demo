@@ -22,6 +22,7 @@ body{
 
 .navbar-brand{
     margin-left: 50px;
+    font-family: 'Black Ops One', cursive;
 }
 
 .navbar-toggler:hover {
@@ -35,10 +36,9 @@ body{
 
 /* Header */
 .header{
-    background-image: url('/img/header.jpg') !important;
+    background-image: url('/img/header.jpg');
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    height: 800px;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -46,15 +46,22 @@ body{
 
 .header-overlay {
     background-color: rgba(31, 31, 31, 0.4);
-    height: 800px;
 }
+
+
 
 .header-text{
-    margin-top: 100px;
+    margin-top: 14rem;
+    margin-bottom: 15em;
 }
 
+.header-text h1{
+    font-family: 'Black Ops One', cursive;
+}
 
-
+.header-text h3{
+    font-family: 'Black Ops One', cursive;
+}
 
 
 /* Icons */
@@ -152,12 +159,16 @@ border-bottom: 1px solid #2A9FD6;
         margin-left: 0px;
     }
     
+    .header-text{
+        margin-top: 100px;
+    }
+
     .header-text h1{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .header-text h3{
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .header{
