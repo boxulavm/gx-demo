@@ -1,4 +1,4 @@
-//add smooth scrolling
+// Add smooth scrolling
 $(document).ready(function() {
     "use strict";
   
@@ -22,3 +22,9 @@ $(document).ready(function() {
       }
     });
   });
+
+// Init animation
+$(document).ready(function() {
+  'use strict';
+  new WOW().init();
+});
