@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -8,13 +9,6 @@ body{
     overflow-x: hidden;
 }
 
-/* .navbar-toggler{
-    color: #fff;
-}
-
-.navbar-toggler{
-    color: #fff;
-} */
 
 .navbar{
     opacity: 0.96;
@@ -55,14 +49,9 @@ body{
     margin-bottom: 15em;
 }
 
-.header-text h1{
-    font-family: 'Black Ops One', cursive;
+.header-text h1,h4{
+    font-family: 'Black Ops One', cursive, 'Times New Roman', Times, serif;
 }
-
-.header-text h3{
-    font-family: 'Black Ops One', cursive;
-}
-
 
 /* Icons */
 #icons{
@@ -70,11 +59,17 @@ border-top: 1px solid #2A9FD6;
 border-bottom: 1px solid #2A9FD6;
 }
 
-
+#icons h3{
+    font-family: 'Black Ops One', cursive; 
+}
 
 
 
 /* About */
+.section-title{
+    font-family: 'Black Ops One', cursive;
+}
+
 .section-title__underline{
     width: 5rem;
     height: .25rem;
